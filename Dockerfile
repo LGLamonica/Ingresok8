@@ -2,7 +2,7 @@ FROM python:3.7
 
 WORKDIR /app
 
-ENV FLASK_ENV=production
+ENV FLASK_ENV=development
 
 COPY requirements.txt .
 
